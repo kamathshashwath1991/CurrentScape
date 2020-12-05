@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1059877766134",
+    "firebase_url": "https://currentscape.firebaseio.com",
+    "project_id": "currentscape",
+    "storage_bucket": "currentscape.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059877766134:android:b20e0f773564d34318fdd7",
+        "android_client_info": {
+          "package_name": "com.example.currentscape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059877766134-r2d84754reqerdr57fg3smjvugq0bpau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMmxcbUH5ZjieDaegmQ4Fb3h15gxN0g40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059877766134-r2d84754reqerdr57fg3smjvugq0bpau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
