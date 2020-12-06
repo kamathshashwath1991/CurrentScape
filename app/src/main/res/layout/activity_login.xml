@@ -61,11 +61,28 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/buttonLogin"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:layout_below="@+id/passwordTIL"
                 android:layout_centerHorizontal="true"
                 android:text="@string/button_login"
+                style="@style/StandardButton"
+                android:onClick="onLogin"
+                android:layout_margin="@dimen/grid_2x"
+                />
+
+            <TextView
+                android:id="@+id/signUpTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonLogin"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/grid_2x"
+                android:clickable="true"
+                android:onClick="goToSignUp"
+                style="@style/LinkText"
+                android:text="@string/text_signUp"
                 />
 
         </RelativeLayout>
